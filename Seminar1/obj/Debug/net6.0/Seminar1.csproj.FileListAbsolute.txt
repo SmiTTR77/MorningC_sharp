@@ -1,0 +1,15 @@
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.csproj.AssemblyReference.cache
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.AssemblyInfoInputs.cache
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.AssemblyInfo.cs
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.csproj.CoreCompileInputs.cache
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/bin/Debug/net6.0/Seminar1
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/bin/Debug/net6.0/Seminar1.deps.json
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/bin/Debug/net6.0/Seminar1.runtimeconfig.json
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/bin/Debug/net6.0/Seminar1.dll
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/bin/Debug/net6.0/Seminar1.pdb
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.dll
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/refint/Seminar1.dll
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.pdb
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/Seminar1.genruntimeconfig.cache
+/Users/smitt/Desktop/GitHub/C#/MorningC#/Seminar1/obj/Debug/net6.0/ref/Seminar1.dll
