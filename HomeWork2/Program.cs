@@ -17,43 +17,41 @@ Console.WriteLine($"desired number: {newNum}");
 
 //Task 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-int ActionOne(int userNumber)
+int CounterN(int userNumber)
 {
-	int currentNumber = userNumber;
 	int counter = 0;
-	while (currentNumber > 0)
+	while (userNumber > 0)
 	{
-		currentNumber = currentNumber / 10;
+		userNumber = userNumber / 10;
 		counter++;
 	}
 	return counter;
 }
 
-int ActionTwo(int userNumber, int counter)
+int ThirdDigit(int userNumber, int counter)
 {
-	int xNumber = userNumber;
 	while (counter > 3)
 	{
-		xNumber = xNumber / 10;
+		userNumber = userNumber / 10;
 		counter--;
 	}
-	xNumber = xNumber % 10;
-	return xNumber;
+	userNumber = userNumber % 10;
+	return userNumber;
 }
 
 Console.Write("Please, enter any number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int count = ActionOne(num);
+int count = CounterN(num);
 
 if (count > 2)
 {
-	int answer = ActionTwo(num, count);
-	Console.WriteLine($"Third number is: {answer}");
+	int result = ThirdDigit(num, count);
+	Console.WriteLine($"Third number is: {result}");
 }
 
 else
-	Console.WriteLine("-1");
+	Console.WriteLine(-1);
 
 
 //Task 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
