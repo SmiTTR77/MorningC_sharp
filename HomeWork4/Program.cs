@@ -23,6 +23,7 @@ int numA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Please input number B: ");
 int numB = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine($"Result : ");
 Exponentiation(numA, numB);
 */
 
@@ -46,23 +47,6 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int result = SumOfDigits(num);
 Console.WriteLine($"Sum of digits = {result}");
-
-
-
-
-// int x = Convert.ToInt32(Console.ReadLine());
-
-// int sum = 0;
-
-// for (int i = 3; i >= 0; i--)
-// {
-// 	sum = sum + x % 10;
-// 	x = x / 10;
-// }
-
-// Console.WriteLine(sum);
-
-
 
 
 // Task 29. Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
