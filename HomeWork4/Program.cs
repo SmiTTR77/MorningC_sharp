@@ -23,11 +23,11 @@ int numA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Please input number B: ");
 int numB = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Result : ");
 Exponentiation(numA, numB);
 */
 
 // Task 27. Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
 
 int SumOfDigits(int number)
 {
@@ -47,6 +47,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int result = SumOfDigits(num);
 Console.WriteLine($"Sum of digits = {result}");
+
 
 
 // Task 29. Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
