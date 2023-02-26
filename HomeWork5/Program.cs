@@ -83,7 +83,6 @@ Console.WriteLine($"Sum of numbers with odd index value: {result}");
 
 
 // Task 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-// 
 
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
@@ -111,8 +110,8 @@ int DifferenceMaxMin(int[] array)
 	int max = array[i];
 	for (i = 0; i < array.Length; i++)
 	{
-		if (array[i] > max) max = array[i];
-		else if (array[i] < min) min = array[i];
+		if (array[i] >= max) max = array[i];
+		else if (array[i] <= min) min = array[i];
 	}
 	result = max - min;
 	return result;
