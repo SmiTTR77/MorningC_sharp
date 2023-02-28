@@ -83,7 +83,7 @@ Console.WriteLine($"Sum of numbers with odd index value: {result}");
 
 
 // Task 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
 	int[] array = new int[size];
@@ -94,20 +94,31 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
 	}
 	return array;
 }
+*/
+double[] CreateRandomDoubleArray(int size, int minValue, int maxValue)
+{
+	double[] array = new double[size];
 
-void ShowArray(int[] array)
+	for (int i = 0; i < size; i++)
+	{
+		array[i] = Math.Round((new Random().Next(minValue, maxValue + 1) + new Random().NextDouble()), 2);
+	}
+	return array;
+}
+
+void ShowArray(double[] array)
 {
 	for (int i = 0; i < array.Length; i++)
 		Console.Write(array[i] + " ");
 	Console.WriteLine();
 }
 
-int DifferenceMaxMin(int[] array)
+double DifferenceMaxMin(double[] array)
 {
 	int i = 0;
-	int result = 0;
-	int min = array[i];
-	int max = array[i];
+	double result = 0;
+	double min = array[i];
+	double max = array[i];
 	for (i = 0; i < array.Length; i++)
 	{
 		if (array[i] >= max) max = array[i];
@@ -124,8 +135,8 @@ int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a max possible value: ");
 int max = Convert.ToInt32(Console.ReadLine());
 
-int[] newArray = CreateRandomArray(size, min, max);
+double[] newArray = CreateRandomDoubleArray(size, min, max);
 ShowArray(newArray);
 
-int result = DifferenceMaxMin(newArray);
-Console.WriteLine($"The difference between the maximum and minimum value: {result}");
+// double result = DifferenceMaxMin(newArray);
+Console.WriteLine($"The difference between the maximum and minimum value: {DifferenceMaxMin(newArray)}");
