@@ -1,5 +1,20 @@
 ﻿// Шаблоны 
 
+// Массив
+/*
+int[] CreateArray(int size)
+{
+	int[] array = new int[size];
+
+	for (int i = 0; i < size; i++)
+	{
+		Console.Write("Input a value: ");
+		array[i] = Convert.ToInt32(Console.ReadLine());
+	}
+	return array;
+}
+*/
+
 // Рандомный одномерный массив + вывод
 /*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
