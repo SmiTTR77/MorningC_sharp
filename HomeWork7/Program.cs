@@ -115,10 +115,9 @@ double[] ArithmeticMeanOfColumns(int[,] array, int columns)
 		double current = 0;
 		double counter = 0;
 
-		for (int i = 0; i < array.GetLength(0); i++)
+		for (int i = 0; i < array.GetLength(0); i++, counter++)
 		{
 			current += Convert.ToInt32(array[i, j]);
-			counter++;
 		}
 		result[j] = Math.Round(current / counter, 2);
 	}
