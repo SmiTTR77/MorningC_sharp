@@ -85,11 +85,6 @@ ElementsChecked(newArray, row, col, findValueRow, findValueCol);
 
 
 // Task 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-// Например, задан массив:
-// 1 4 7 2
-// 5 9 2 3
-// 8 4 2 4
-// Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
 int[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
 {
@@ -153,6 +148,5 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[,] newArray = CreateRandom2dArray(row, col, min, max);
 Show2dArray(newArray);
 
-double[] result = ArithmeticMeanOfColumns(newArray, col);
 Console.WriteLine("Arithmetic mean of each column: ");
-ShowArray(result);
+ShowArray(ArithmeticMeanOfColumns(newArray, col));
