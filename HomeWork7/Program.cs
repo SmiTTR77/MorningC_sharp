@@ -108,23 +108,19 @@ void Show2dArray(int[,] array)
 
 double[] ArithmeticMeanOfColumns(int[,] array, int columns)
 {
-	int j = 0;
 	double[] result = new double[columns];
 
-	while (j < array.GetLength(1))
+	for (int j = 0; j < array.GetLength(1); j++)
 	{
 		double current = 0;
 		double counter = 0;
-		int i = 0;
 
-		while (i < array.GetLength(0))
+		for (int i = 0; i < array.GetLength(0); i++)
 		{
 			current += Convert.ToInt32(array[i, j]);
-			i++;
 			counter++;
 		}
 		result[j] = Math.Round(current / counter, 2);
-		j++;
 	}
 	return result;
 }
